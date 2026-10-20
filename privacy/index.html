@@ -13,7 +13,7 @@
     <header class="masthead compact">
       <p class="eyebrow">Your data</p>
       <h1>Privacy Policy</h1>
-      <p class="lede">Last updated October 9, 2026</p>
+      <p class="lede">Last updated October 20, 2026 · Version privacy-2026-10-20-v2</p>
     </header>
 
     <section>
@@ -48,26 +48,42 @@
       </ul>
     </section>
 
+    <section id="ai-sharing">
+      <h2>Your permission for AI data sharing</h2>
+      <p>Our AI provider is <strong>OpenAI</strong>. We use its API to interpret race-result images, analyze race performance, generate and personalize training plans, and write workout and daily coaching explanations. Before these features send your personal information to OpenAI, the app shows a separate AI data-sharing disclosure and asks for your affirmative permission. Agreeing to exercise risks or the Terms of Use is not permission for AI data sharing.</p>
+      <p>Depending on the feature, the information sent to OpenAI may include:</p>
+      <ul>
+        <li><strong>Training answers and constraints:</strong> name, age, training background, goals, available days and time, equipment, and injury areas, severity, limitations or exercise restrictions you provide.</li>
+        <li><strong>Race information:</strong> dates, event locations, division, results, running and station splits, transition times, race notes, upcoming race details and time goals. An analysis may use previous race results as well as the result you are viewing.</li>
+        <li><strong>Training and coaching context:</strong> planned workouts, training phase, recent workout dates and performance summaries, completed work, duration, repetitions and sets, run-distance context, fatigue, feedback, and relevant check-in or context-event summaries, including health or recovery information you choose to record.</li>
+        <li><strong>Uploaded race-result images:</strong> the complete image you choose to upload. Images and free-form notes or feedback may contain names or other personal information. We do not promise that these are automatically removed before processing. Crop or remove anything you do not want analyzed before uploading.</li>
+      </ul>
+      <p>We send the context needed for the particular feature; not every stored profile field is included in every AI request. Our AI integration does not intentionally send sign-in passwords or authentication tokens, payment details, or precise run-route points. Do not put those details in images, race notes or feedback.</p>
+      <p>You may choose <strong>Don't allow</strong> on the consent screen. AI features remain unavailable until you give permission; declining does not delete your account or grant permission in the background. The app records the accepted disclosure and privacy-policy versions, the account that accepted them, and a server timestamp. Existing users must accept the new AI disclosure, rather than having an older Terms acceptance treated as permission. We will request renewed permission before sharing with a different AI provider or under a materially changed disclosure.</p>
+    </section>
+
     <section>
-      <h2>Service providers</h2>
+      <h2>Service providers and protection</h2>
       <p>We use service providers only to operate app features:</p>
       <ul>
-        <li><strong>OpenAI</strong> processes prompts, coaching context, and race-result images used by AI features.</li>
+        <li><strong>OpenAI</strong> receives the information described above to operate the AI features you permit.</li>
         <li><strong>Supabase</strong> supports authentication and stores app data used to provide your profile, plans, and workout history.</li>
         <li><strong>Railway</strong> hosts the app's API service.</li>
-        <li><strong>Apple</strong> provides optional Sign in with Apple and the App Store.</li>
+        <li><strong>Apple</strong> provides optional Sign in with Apple, push-notification delivery and the App Store. If you enable personalized notification previews, race or coaching details may be visible on your lock screen.</li>
       </ul>
-      <p>These providers process information according to their agreements and privacy practices. Data submitted through the OpenAI API is not used to train OpenAI models unless the API account owner explicitly opts in.</p>
+      <p>We require providers receiving personal information to provide the same or equal protection described in this policy, including confidentiality, appropriate security, limited use for providing the service, and applicable deletion and retention obligations. Their processing is governed by the relevant service and data-protection agreements, not permission to sell your information or use it for targeted advertising.</p>
+      <p>OpenAI documents that API data is not used for model training by default; training requires a separate opt-in by the API account owner. API processing is different from using a consumer chatbot. See <a href="https://developers.openai.com/api/docs/guides/your-data">OpenAI's API data controls and retention documentation</a> for its processing safeguards and exceptions. Your permission here is for the app features described above, not a request to contribute your data to model training.</p>
     </section>
 
     <section>
       <h2>Race-result images</h2>
-      <p>A race-result image is sent for processing when you choose to upload it. Race By Any Means does not store the original image in its application database. The extracted race information may be saved to your profile and used to personalize training.</p>
+      <p>After AI-sharing permission is recorded, a race-result image is sent to OpenAI when you choose to upload it. Race By Any Means does not store the original image in its application database. The extracted race information may be saved to your profile and used to personalize training. OpenAI's processing and retention rules still apply to the submitted image.</p>
     </section>
 
     <section>
       <h2>Retention and security</h2>
       <p>We retain profile, plan, race, and workout information while it is needed to operate the service, maintain your history, meet legal obligations, and resolve security or support issues. Service providers may retain request data under their own terms. We use reasonable technical and organizational safeguards, but no system can guarantee absolute security.</p>
+      <p>OpenAI may retain API content and metadata for abuse monitoring and feature operation. Standard abuse-monitoring retention is up to 30 days, with legal, safety and other documented exceptions. We do not promise zero retention or that stopping use of a feature recalls information already processed.</p>
     </section>
 
     <section>
@@ -76,6 +92,8 @@
         <li>Sign in with Apple is optional.</li>
         <li>You can deny or revoke photo and location permissions in iOS Settings.</li>
         <li>You can avoid uploading race-result images and enter results manually.</li>
+        <li>You can decline AI sharing before using AI features. Manual race entry avoids sending an image, but any later AI analysis of the entered results still requires AI-sharing permission.</li>
+        <li>To stop future AI use, stop using AI features and contact support to request withdrawal or deletion. Changing photo or location permissions alone does not withdraw AI-sharing permission. A dedicated in-app AI-sharing withdrawal toggle is not currently available.</li>
         <li>You can request access to or deletion of account data through the support page.</li>
       </ul>
     </section>
